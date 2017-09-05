@@ -1,0 +1,125 @@
+body {
+    padding: 20px;
+    font: normal 14px/1.2 Arial, sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+
+/**************/
+
+
+/* Names list */
+
+.names {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    float: left;
+    margin-right: 2px;
+}
+
+.names li {
+    background: #00BCD4;
+    margin: 0 0 1px 0;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+.names div {
+    float: left;
+    padding: 8px 15px 2px 15px;
+    margin: -10px 10px -10px -10px;
+    background: #B2EBF2;
+}
+
+.names span {
+    margin: 0 0 5px 0;
+}
+
+.arrow-up {
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-bottom: 8px solid #4389FF;
+}
+
+.arrow-down {
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top: 8px solid #4389FF;
+}
+
+
+/***************/
+
+
+/* Scores list */
+
+.scores {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+
+.scores li {
+    margin: 0 0 1px 0;
+    padding: 10px 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    background: #727272;
+    text-align: center;
+}
+
+.scores span {
+    pointer-events: none;
+}
+
+.score-input {
+    width: 20px;
+    height: 9px;
+    text-align: center;
+}
+
+
+/***********/
+
+
+/* Profile */
+
+.profile {
+    float: left;
+    width: 200px;
+    background: #448AFF;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.profile img {
+    display: block;
+    margin: 10px auto 10px;
+}
+
+.profile h3 {
+    margin: 0 0 10px;
+}
